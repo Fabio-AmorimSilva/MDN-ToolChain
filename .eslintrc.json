@@ -1,0 +1,25 @@
+{
+
+	"env": {
+		"es6": true,
+	  "browser": true
+
+	},
+
+	"extends": ["eslint:recommend", "plugin:react/recommend"],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+
+	"plugins": ["react"],
+	"rules": {
+		"semi": "error",
+		"no-rule": 0
+		"react/jsx-uses-vars": "error"
+	}
+
+}
